@@ -6,6 +6,7 @@
 <body>
 <?php
 
+
 echo "labas";
 
 $kintamasis;
