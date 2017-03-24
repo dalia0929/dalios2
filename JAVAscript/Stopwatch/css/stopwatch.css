@@ -1,0 +1,40 @@
+body{
+	 background-image: url("../images/clock.jpg");
+	background-repeat: no-repeat;
+	background-color: black;
+}
+ul li{
+	display: inline-block;
+}
+button{
+	background-color: transparent;
+	color:white;
+	border-radius: 15px;
+	border: solid 1px white;
+	padding: 10px;
+	margin: 10px;
+}
+header{
+	position:relative;
+}
+.hand{
+	background-image: url("../images/hands.png");
+	width: 30px;
+	height: 265px;
+	position: absolute;
+}
+#clock{
+	padding: 147px 0 430px 840px;
+
+}
+.seconds{
+	transform: rotate(15deg);
+	background-position: -60px 0px;
+}
+.minute{
+	transform: rotate(90deg);
+	background-position: -30px 0px;
+}
+.miliseconds{
+	transform: rotate(180deg);
+}

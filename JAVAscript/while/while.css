@@ -1,0 +1,18 @@
+.color {
+	background-color: red;
+}
+.color2{
+	color: red;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+table {
+	border: green solid 2px;
+}
+td {
+	font-size: 18px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}

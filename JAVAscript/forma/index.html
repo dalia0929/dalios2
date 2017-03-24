@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Registration Form</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap -->
+    <link href="css/signin.css" rel="stylesheet"> <!-- Main styles -->
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Registration Form</h2>
+        <!-- username -->
+        <div class="form-group">
+          <label for="username">Username *</label>
+          <input type="text" class="form-control" id="username" value="" data-required="yes" data-validate='yes'>
+        </div>
+        <!-- end of username -->
+
+        <!-- password -->
+        <div class="form-group">
+          <label for="password">Password *</label>
+          <input type="password" class="form-control" id="password" data-required="yes" data-validate='yes'>
+          <p class="error"></p>
+        </div>
+        <!-- end of password -->
+
+        <!-- name -->
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" class="form-control" id="name" data-validate='yes' data-required="yes">
+        </div>
+        <!-- end of name -->
+
+
+        <!-- address -->
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input type="text" class="form-control" id="address" data-validate='yes' >
+        </div>
+        <!-- end of address -->
+
+        <!-- country -->
+        <div class="form-group">
+          <label>Country *</label>
+           <select class="form-control" data-required="yes" data-validate='yes' >
+            <option value="false">Select</option>
+            <option value="lithuania">Lithuania</option>
+            <option value="latvia">Latvia</option>
+            <option value="estonia">Estonia</option>
+          </select>
+        </div>
+        <!-- end of country -->
+
+        <!-- zip code -->
+        <div class="form-group">
+          <label for="zip-code">ZIP Code</label>
+          <input type="text" class="form-control" id="zip-code" data-validate='yes' >
+        </div>
+        <!-- end of zip code -->
+
+        <!-- email -->
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" class="form-control" id="email" data-validate='yes' data-required="yes">
+        </div>
+         <!-- end of email -->
+
+
+        <!-- sex -->
+        <div class="form-group">
+          <label>Sex *</label>
+          <div class="radio" >
+            <label>
+              <input type="radio" name="sex" id="male" value="" data-validate='yes'>
+              Male
+            </label>
+            <label>
+              <input type="radio" name="sex" id="female" value="" data-validate='yes'>
+              Female
+            </label>
+          </div>
+        </div>
+        <!-- end of sex -->
+
+        <!-- language -->
+        <div class="form-group">
+          <label>Language *</label>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value=""> English
+            </label>
+            <label>
+              <input type="checkbox" value=""> Male
+            </label>
+          </div>
+        </div>
+        <!-- end of language -->
+
+        <!-- language -->
+        <div class="form-group">
+          <label for="text-area">About</label>
+          <textarea id="text-area" class="form-control" rows="3"></textarea>
+        </div>
+        <!-- end of language -->
+
+        <button class="btn btn-lg btn-primary col-md-5" id="submit">Submit</button>
+        <button class="btn btn-lg btn-default col-md-5 pull-right" id="reset">Reset</button>  
+      </form>
+
+    </div> <!-- /container -->
+
+
+</body>
+</html>

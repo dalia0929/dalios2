@@ -1,0 +1,32 @@
+/*#slepinys{
+	display: none;
+}*/
+
+/*.slepinys{
+	display: none;
+}*/
+
+.rectangle{
+	width: 400px;
+	height: 300px;
+	background-color: royalblue;
+	border-radius: 50px;
+	font-size: 24px;
+	color: white;
+	transition: background-color 2s ease-in-out;
+}
+
+.hide{
+	display: none;
+}
+
+
+
+.important{
+	background-color: red;
+}
+
+
+.good{
+	background-color:limegreen;
+}
