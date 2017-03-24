@@ -16,6 +16,7 @@ $c = $a + $b;
 
 echo $c;
 
+
 $array = [10,20,30,40]; //masyvas
 $object = [ // objektai
 	'name' => 'John',
